@@ -75,3 +75,8 @@ class HallFilteredApiView(generics.GenericAPIView,
             return Response(serializer.data, status=200)
 
         return Response(serializer.errors, status=400)
+
+
+
+
+
